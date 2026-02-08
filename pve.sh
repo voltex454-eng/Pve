@@ -23,7 +23,7 @@ apt update
 
 # 6. Install Proxmox VE + postfix + open-iscsi
 echo "⚙️ Installing Proxmox VE core packages..."
-DEBIAN_FRONTEND=noninteractive apt install -y proxmox-ve postfix open-iscsi
+apt install -y proxmox-ve postfix open-iscsi
 
 # 7. Fix SSL/certs for browser access (self-signed)
 echo "🔒 Fixing SSL certificates..."
